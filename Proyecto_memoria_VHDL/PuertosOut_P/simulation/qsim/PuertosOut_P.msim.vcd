@@ -1,0 +1,1142 @@
+$comment
+	File created using the following command:
+		vcd file PuertosOut_P.msim.vcd -direction
+$end
+$date
+	Wed Nov 09 08:41:56 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module PuertosOut_P_vlg_vec_tst $end
+$var reg 8 ! address [7:0] $end
+$var reg 1 " clock $end
+$var reg 8 # data_in [7:0] $end
+$var reg 1 $ reset $end
+$var reg 1 % writen $end
+$var wire 1 & port_out_00 [7] $end
+$var wire 1 ' port_out_00 [6] $end
+$var wire 1 ( port_out_00 [5] $end
+$var wire 1 ) port_out_00 [4] $end
+$var wire 1 * port_out_00 [3] $end
+$var wire 1 + port_out_00 [2] $end
+$var wire 1 , port_out_00 [1] $end
+$var wire 1 - port_out_00 [0] $end
+$var wire 1 . port_out_01 [7] $end
+$var wire 1 / port_out_01 [6] $end
+$var wire 1 0 port_out_01 [5] $end
+$var wire 1 1 port_out_01 [4] $end
+$var wire 1 2 port_out_01 [3] $end
+$var wire 1 3 port_out_01 [2] $end
+$var wire 1 4 port_out_01 [1] $end
+$var wire 1 5 port_out_01 [0] $end
+$var wire 1 6 port_out_02 [7] $end
+$var wire 1 7 port_out_02 [6] $end
+$var wire 1 8 port_out_02 [5] $end
+$var wire 1 9 port_out_02 [4] $end
+$var wire 1 : port_out_02 [3] $end
+$var wire 1 ; port_out_02 [2] $end
+$var wire 1 < port_out_02 [1] $end
+$var wire 1 = port_out_02 [0] $end
+$var wire 1 > port_out_03 [7] $end
+$var wire 1 ? port_out_03 [6] $end
+$var wire 1 @ port_out_03 [5] $end
+$var wire 1 A port_out_03 [4] $end
+$var wire 1 B port_out_03 [3] $end
+$var wire 1 C port_out_03 [2] $end
+$var wire 1 D port_out_03 [1] $end
+$var wire 1 E port_out_03 [0] $end
+$var wire 1 F port_out_04 [7] $end
+$var wire 1 G port_out_04 [6] $end
+$var wire 1 H port_out_04 [5] $end
+$var wire 1 I port_out_04 [4] $end
+$var wire 1 J port_out_04 [3] $end
+$var wire 1 K port_out_04 [2] $end
+$var wire 1 L port_out_04 [1] $end
+$var wire 1 M port_out_04 [0] $end
+$var wire 1 N port_out_05 [7] $end
+$var wire 1 O port_out_05 [6] $end
+$var wire 1 P port_out_05 [5] $end
+$var wire 1 Q port_out_05 [4] $end
+$var wire 1 R port_out_05 [3] $end
+$var wire 1 S port_out_05 [2] $end
+$var wire 1 T port_out_05 [1] $end
+$var wire 1 U port_out_05 [0] $end
+$var wire 1 V port_out_06 [7] $end
+$var wire 1 W port_out_06 [6] $end
+$var wire 1 X port_out_06 [5] $end
+$var wire 1 Y port_out_06 [4] $end
+$var wire 1 Z port_out_06 [3] $end
+$var wire 1 [ port_out_06 [2] $end
+$var wire 1 \ port_out_06 [1] $end
+$var wire 1 ] port_out_06 [0] $end
+$var wire 1 ^ port_out_07 [7] $end
+$var wire 1 _ port_out_07 [6] $end
+$var wire 1 ` port_out_07 [5] $end
+$var wire 1 a port_out_07 [4] $end
+$var wire 1 b port_out_07 [3] $end
+$var wire 1 c port_out_07 [2] $end
+$var wire 1 d port_out_07 [1] $end
+$var wire 1 e port_out_07 [0] $end
+$var wire 1 f sampler $end
+$scope module i1 $end
+$var wire 1 g gnd $end
+$var wire 1 h vcc $end
+$var wire 1 i unknown $end
+$var tri1 1 j devclrn $end
+$var tri1 1 k devpor $end
+$var tri1 1 l devoe $end
+$var wire 1 m port_out_00[0]~output_o $end
+$var wire 1 n port_out_00[1]~output_o $end
+$var wire 1 o port_out_00[2]~output_o $end
+$var wire 1 p port_out_00[3]~output_o $end
+$var wire 1 q port_out_00[4]~output_o $end
+$var wire 1 r port_out_00[5]~output_o $end
+$var wire 1 s port_out_00[6]~output_o $end
+$var wire 1 t port_out_00[7]~output_o $end
+$var wire 1 u port_out_01[0]~output_o $end
+$var wire 1 v port_out_01[1]~output_o $end
+$var wire 1 w port_out_01[2]~output_o $end
+$var wire 1 x port_out_01[3]~output_o $end
+$var wire 1 y port_out_01[4]~output_o $end
+$var wire 1 z port_out_01[5]~output_o $end
+$var wire 1 { port_out_01[6]~output_o $end
+$var wire 1 | port_out_01[7]~output_o $end
+$var wire 1 } port_out_02[0]~output_o $end
+$var wire 1 ~ port_out_02[1]~output_o $end
+$var wire 1 !! port_out_02[2]~output_o $end
+$var wire 1 "! port_out_02[3]~output_o $end
+$var wire 1 #! port_out_02[4]~output_o $end
+$var wire 1 $! port_out_02[5]~output_o $end
+$var wire 1 %! port_out_02[6]~output_o $end
+$var wire 1 &! port_out_02[7]~output_o $end
+$var wire 1 '! port_out_03[0]~output_o $end
+$var wire 1 (! port_out_03[1]~output_o $end
+$var wire 1 )! port_out_03[2]~output_o $end
+$var wire 1 *! port_out_03[3]~output_o $end
+$var wire 1 +! port_out_03[4]~output_o $end
+$var wire 1 ,! port_out_03[5]~output_o $end
+$var wire 1 -! port_out_03[6]~output_o $end
+$var wire 1 .! port_out_03[7]~output_o $end
+$var wire 1 /! port_out_04[0]~output_o $end
+$var wire 1 0! port_out_04[1]~output_o $end
+$var wire 1 1! port_out_04[2]~output_o $end
+$var wire 1 2! port_out_04[3]~output_o $end
+$var wire 1 3! port_out_04[4]~output_o $end
+$var wire 1 4! port_out_04[5]~output_o $end
+$var wire 1 5! port_out_04[6]~output_o $end
+$var wire 1 6! port_out_04[7]~output_o $end
+$var wire 1 7! port_out_05[0]~output_o $end
+$var wire 1 8! port_out_05[1]~output_o $end
+$var wire 1 9! port_out_05[2]~output_o $end
+$var wire 1 :! port_out_05[3]~output_o $end
+$var wire 1 ;! port_out_05[4]~output_o $end
+$var wire 1 <! port_out_05[5]~output_o $end
+$var wire 1 =! port_out_05[6]~output_o $end
+$var wire 1 >! port_out_05[7]~output_o $end
+$var wire 1 ?! port_out_06[0]~output_o $end
+$var wire 1 @! port_out_06[1]~output_o $end
+$var wire 1 A! port_out_06[2]~output_o $end
+$var wire 1 B! port_out_06[3]~output_o $end
+$var wire 1 C! port_out_06[4]~output_o $end
+$var wire 1 D! port_out_06[5]~output_o $end
+$var wire 1 E! port_out_06[6]~output_o $end
+$var wire 1 F! port_out_06[7]~output_o $end
+$var wire 1 G! port_out_07[0]~output_o $end
+$var wire 1 H! port_out_07[1]~output_o $end
+$var wire 1 I! port_out_07[2]~output_o $end
+$var wire 1 J! port_out_07[3]~output_o $end
+$var wire 1 K! port_out_07[4]~output_o $end
+$var wire 1 L! port_out_07[5]~output_o $end
+$var wire 1 M! port_out_07[6]~output_o $end
+$var wire 1 N! port_out_07[7]~output_o $end
+$var wire 1 O! clock~input_o $end
+$var wire 1 P! clock~inputclkctrl_outclk $end
+$var wire 1 Q! data_in[0]~input_o $end
+$var wire 1 R! port_out_00[0]~reg0feeder_combout $end
+$var wire 1 S! reset~input_o $end
+$var wire 1 T! reset~inputclkctrl_outclk $end
+$var wire 1 U! address[6]~input_o $end
+$var wire 1 V! address[4]~input_o $end
+$var wire 1 W! address[5]~input_o $end
+$var wire 1 X! address[3]~input_o $end
+$var wire 1 Y! writen~input_o $end
+$var wire 1 Z! U10~0_combout $end
+$var wire 1 [! address[7]~input_o $end
+$var wire 1 \! address[0]~input_o $end
+$var wire 1 ]! U9~0_combout $end
+$var wire 1 ^! address[1]~input_o $end
+$var wire 1 _! address[2]~input_o $end
+$var wire 1 `! U3~0_combout $end
+$var wire 1 a! port_out_00[0]~reg0_q $end
+$var wire 1 b! data_in[1]~input_o $end
+$var wire 1 c! port_out_00[1]~reg0_q $end
+$var wire 1 d! data_in[2]~input_o $end
+$var wire 1 e! port_out_00[2]~reg0feeder_combout $end
+$var wire 1 f! port_out_00[2]~reg0_q $end
+$var wire 1 g! data_in[3]~input_o $end
+$var wire 1 h! port_out_00[3]~reg0_q $end
+$var wire 1 i! data_in[4]~input_o $end
+$var wire 1 j! port_out_00[4]~reg0feeder_combout $end
+$var wire 1 k! port_out_00[4]~reg0_q $end
+$var wire 1 l! data_in[5]~input_o $end
+$var wire 1 m! port_out_00[5]~reg0feeder_combout $end
+$var wire 1 n! port_out_00[5]~reg0_q $end
+$var wire 1 o! data_in[6]~input_o $end
+$var wire 1 p! port_out_00[6]~reg0_q $end
+$var wire 1 q! data_in[7]~input_o $end
+$var wire 1 r! port_out_00[7]~reg0_q $end
+$var wire 1 s! port_out_01[0]~reg0feeder_combout $end
+$var wire 1 t! U10~1_combout $end
+$var wire 1 u! U4~0_combout $end
+$var wire 1 v! port_out_01[0]~reg0_q $end
+$var wire 1 w! port_out_01[1]~reg0_q $end
+$var wire 1 x! port_out_01[2]~reg0_q $end
+$var wire 1 y! port_out_01[3]~reg0_q $end
+$var wire 1 z! port_out_01[4]~reg0feeder_combout $end
+$var wire 1 {! port_out_01[4]~reg0_q $end
+$var wire 1 |! port_out_01[5]~reg0feeder_combout $end
+$var wire 1 }! port_out_01[5]~reg0_q $end
+$var wire 1 ~! port_out_01[6]~reg0feeder_combout $end
+$var wire 1 !" port_out_01[6]~reg0_q $end
+$var wire 1 "" port_out_01[7]~reg0_q $end
+$var wire 1 #" port_out_02[0]~reg0feeder_combout $end
+$var wire 1 $" U5~0_combout $end
+$var wire 1 %" port_out_02[0]~reg0_q $end
+$var wire 1 &" port_out_02[1]~reg0_q $end
+$var wire 1 '" port_out_02[2]~reg0_q $end
+$var wire 1 (" port_out_02[3]~reg0_q $end
+$var wire 1 )" port_out_02[4]~reg0feeder_combout $end
+$var wire 1 *" port_out_02[4]~reg0_q $end
+$var wire 1 +" port_out_02[5]~reg0feeder_combout $end
+$var wire 1 ," port_out_02[5]~reg0_q $end
+$var wire 1 -" port_out_02[6]~reg0feeder_combout $end
+$var wire 1 ." port_out_02[6]~reg0_q $end
+$var wire 1 /" port_out_02[7]~reg0_q $end
+$var wire 1 0" port_out_03[0]~reg0feeder_combout $end
+$var wire 1 1" U6~0_combout $end
+$var wire 1 2" port_out_03[0]~reg0_q $end
+$var wire 1 3" port_out_03[1]~reg0_q $end
+$var wire 1 4" port_out_03[2]~reg0_q $end
+$var wire 1 5" port_out_03[3]~reg0_q $end
+$var wire 1 6" port_out_03[4]~reg0_q $end
+$var wire 1 7" port_out_03[5]~reg0feeder_combout $end
+$var wire 1 8" port_out_03[5]~reg0_q $end
+$var wire 1 9" port_out_03[6]~reg0feeder_combout $end
+$var wire 1 :" port_out_03[6]~reg0_q $end
+$var wire 1 ;" port_out_03[7]~reg0_q $end
+$var wire 1 <" port_out_04[0]~reg0feeder_combout $end
+$var wire 1 =" U7~0_combout $end
+$var wire 1 >" port_out_04[0]~reg0_q $end
+$var wire 1 ?" port_out_04[1]~reg0_q $end
+$var wire 1 @" port_out_04[2]~reg0_q $end
+$var wire 1 A" port_out_04[3]~reg0_q $end
+$var wire 1 B" port_out_04[4]~reg0_q $end
+$var wire 1 C" port_out_04[5]~reg0feeder_combout $end
+$var wire 1 D" port_out_04[5]~reg0_q $end
+$var wire 1 E" port_out_04[6]~reg0feeder_combout $end
+$var wire 1 F" port_out_04[6]~reg0_q $end
+$var wire 1 G" port_out_04[7]~reg0_q $end
+$var wire 1 H" U8~0_combout $end
+$var wire 1 I" port_out_05[0]~reg0_q $end
+$var wire 1 J" port_out_05[1]~reg0feeder_combout $end
+$var wire 1 K" port_out_05[1]~reg0_q $end
+$var wire 1 L" port_out_05[2]~reg0_q $end
+$var wire 1 M" port_out_05[3]~reg0feeder_combout $end
+$var wire 1 N" port_out_05[3]~reg0_q $end
+$var wire 1 O" port_out_05[4]~reg0feeder_combout $end
+$var wire 1 P" port_out_05[4]~reg0_q $end
+$var wire 1 Q" port_out_05[5]~reg0feeder_combout $end
+$var wire 1 R" port_out_05[5]~reg0_q $end
+$var wire 1 S" port_out_05[6]~reg0feeder_combout $end
+$var wire 1 T" port_out_05[6]~reg0_q $end
+$var wire 1 U" port_out_05[7]~reg0feeder_combout $end
+$var wire 1 V" port_out_05[7]~reg0_q $end
+$var wire 1 W" port_out_06[0]~reg0feeder_combout $end
+$var wire 1 X" U9~1_combout $end
+$var wire 1 Y" port_out_06[0]~reg0_q $end
+$var wire 1 Z" port_out_06[1]~reg0_q $end
+$var wire 1 [" port_out_06[2]~reg0feeder_combout $end
+$var wire 1 \" port_out_06[2]~reg0_q $end
+$var wire 1 ]" port_out_06[3]~reg0_q $end
+$var wire 1 ^" port_out_06[4]~reg0feeder_combout $end
+$var wire 1 _" port_out_06[4]~reg0_q $end
+$var wire 1 `" port_out_06[5]~reg0feeder_combout $end
+$var wire 1 a" port_out_06[5]~reg0_q $end
+$var wire 1 b" port_out_06[6]~reg0_q $end
+$var wire 1 c" port_out_06[7]~reg0_q $end
+$var wire 1 d" U10~2_combout $end
+$var wire 1 e" port_out_07[0]~reg0_q $end
+$var wire 1 f" port_out_07[1]~reg0feeder_combout $end
+$var wire 1 g" port_out_07[1]~reg0_q $end
+$var wire 1 h" port_out_07[2]~reg0_q $end
+$var wire 1 i" port_out_07[3]~reg0feeder_combout $end
+$var wire 1 j" port_out_07[3]~reg0_q $end
+$var wire 1 k" port_out_07[4]~reg0feeder_combout $end
+$var wire 1 l" port_out_07[4]~reg0_q $end
+$var wire 1 m" port_out_07[5]~reg0feeder_combout $end
+$var wire 1 n" port_out_07[5]~reg0_q $end
+$var wire 1 o" port_out_07[6]~reg0feeder_combout $end
+$var wire 1 p" port_out_07[6]~reg0_q $end
+$var wire 1 q" port_out_07[7]~reg0feeder_combout $end
+$var wire 1 r" port_out_07[7]~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11011111 !
+0"
+b0 #
+1$
+1%
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+05
+04
+03
+02
+01
+00
+0/
+0.
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+xf
+0g
+1h
+xi
+1j
+1k
+1l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+0,!
+0-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+04!
+05!
+06!
+07!
+08!
+09!
+0:!
+0;!
+0<!
+0=!
+0>!
+0?!
+0@!
+0A!
+0B!
+0C!
+0D!
+0E!
+0F!
+0G!
+0H!
+0I!
+0J!
+0K!
+0L!
+0M!
+0N!
+0O!
+0P!
+0Q!
+0R!
+1S!
+1T!
+1U!
+1V!
+0W!
+1X!
+1Y!
+0Z!
+1[!
+1\!
+0]!
+1^!
+1_!
+0`!
+0a!
+0b!
+0c!
+0d!
+0e!
+0f!
+0g!
+0h!
+0i!
+0j!
+0k!
+0l!
+0m!
+0n!
+0o!
+0p!
+0q!
+0r!
+0s!
+0t!
+0u!
+0v!
+0w!
+0x!
+0y!
+0z!
+0{!
+0|!
+0}!
+0~!
+0!"
+0""
+0#"
+0$"
+0%"
+0&"
+0'"
+0("
+0)"
+0*"
+0+"
+0,"
+0-"
+0."
+0/"
+00"
+01"
+02"
+03"
+04"
+05"
+06"
+07"
+08"
+09"
+0:"
+0;"
+0<"
+0="
+0>"
+0?"
+0@"
+0A"
+0B"
+0C"
+0D"
+0E"
+0F"
+0G"
+0H"
+0I"
+0J"
+0K"
+0L"
+0M"
+0N"
+0O"
+0P"
+0Q"
+0R"
+0S"
+0T"
+0U"
+0V"
+0W"
+0X"
+0Y"
+0Z"
+0["
+0\"
+0]"
+0^"
+0_"
+0`"
+0a"
+0b"
+0c"
+0d"
+0e"
+0f"
+0g"
+0h"
+0i"
+0j"
+0k"
+0l"
+0m"
+0n"
+0o"
+0p"
+0q"
+0r"
+$end
+#25000
+1"
+1O!
+1P!
+0f
+#50000
+b11111111 !
+b11101111 !
+b11100111 !
+b11100011 !
+b11100001 !
+b11100000 !
+b1 #
+0"
+1Q!
+0\!
+0^!
+0_!
+0X!
+0V!
+1W!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+1Z!
+1]!
+1`!
+#75000
+1"
+1O!
+1P!
+0f
+1a!
+1m
+1-
+#100000
+b11 #
+b11100001 !
+b10 #
+0"
+1\!
+0Q!
+1b!
+0O!
+0P!
+1f
+1t!
+0]!
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+1f"
+1J"
+1u!
+0`!
+#125000
+1"
+1O!
+1P!
+0f
+1w!
+1v
+14
+#150000
+b11100011 !
+b11100010 !
+b11 #
+0"
+1Q!
+0\!
+1^!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+0t!
+1]!
+11"
+0u!
+01"
+1$"
+#175000
+1"
+1O!
+1P!
+0f
+1&"
+1%"
+1~
+1}
+1<
+1=
+#200000
+b111 #
+b101 #
+b11100011 !
+b100 #
+0"
+1\!
+0Q!
+0b!
+1d!
+0O!
+0P!
+1f
+1t!
+0]!
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+0f"
+0J"
+1["
+1e!
+11"
+0$"
+#225000
+1"
+1O!
+1P!
+0f
+14"
+1)!
+1C
+#250000
+b11100111 !
+b11100101 !
+b11100100 !
+b101 #
+0"
+1Q!
+0\!
+0^!
+1_!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+0t!
+1]!
+1H"
+01"
+0H"
+1="
+#275000
+1"
+1O!
+1P!
+0f
+1@"
+1>"
+11!
+1/!
+1K
+1M
+#300000
+b111 #
+b11100101 !
+b110 #
+0"
+1\!
+0Q!
+1b!
+0O!
+0P!
+1f
+1t!
+0]!
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+1f"
+1J"
+1H"
+0="
+#325000
+1"
+1O!
+1P!
+0f
+1L"
+1K"
+19!
+18!
+1S
+1T
+#350000
+b11100111 !
+b11100110 !
+b111 #
+0"
+1Q!
+0\!
+1^!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+0t!
+1]!
+1d"
+0H"
+0d"
+1X"
+#375000
+1"
+1O!
+1P!
+0f
+1\"
+1Z"
+1Y"
+1A!
+1@!
+1?!
+1[
+1\
+1]
+#400000
+b1111 #
+b1011 #
+b1001 #
+b11100111 !
+b1000 #
+0"
+1\!
+0Q!
+0b!
+0d!
+1g!
+0O!
+0P!
+1f
+1t!
+0]!
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+0f"
+0J"
+0["
+0e!
+1i"
+1M"
+1d"
+0X"
+#425000
+1"
+1O!
+1P!
+0f
+1j"
+1J!
+1b
+#450000
+b11101111 !
+b11101011 !
+b11101001 !
+b11101000 !
+b1001 #
+0"
+1Q!
+0\!
+0^!
+0_!
+1X!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+0t!
+1]!
+0d"
+1u!
+0Z!
+0u!
+1`!
+0]!
+0`!
+#475000
+1"
+1O!
+1P!
+0f
+#500000
+b1011 #
+b11101001 !
+b1010 #
+0"
+1\!
+0Q!
+1b!
+0O!
+0P!
+1f
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+1f"
+1J"
+#525000
+1"
+1O!
+1P!
+0f
+#550000
+b11101011 !
+b11101010 !
+b1011 #
+0"
+1Q!
+0\!
+1^!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+#575000
+1"
+1O!
+1P!
+0f
+#600000
+b1111 #
+b1101 #
+b11101011 !
+b1100 #
+0"
+1\!
+0Q!
+0b!
+1d!
+0O!
+0P!
+1f
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+0f"
+0J"
+1["
+1e!
+#625000
+1"
+1O!
+1P!
+0f
+#650000
+b11101111 !
+b11101101 !
+b11101100 !
+b1101 #
+0"
+1Q!
+0\!
+0^!
+1_!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+#675000
+1"
+1O!
+1P!
+0f
+#700000
+b1111 #
+b11101101 !
+b1110 #
+0"
+1\!
+0Q!
+1b!
+0O!
+0P!
+1f
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+1f"
+1J"
+#725000
+1"
+1O!
+1P!
+0f
+#750000
+b11101111 !
+b11101110 !
+b1111 #
+0"
+1Q!
+0\!
+1^!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+#775000
+1"
+1O!
+1P!
+0f
+#800000
+b11111 #
+b10111 #
+b10011 #
+b10001 #
+b11101111 !
+b10000 #
+0"
+1\!
+0Q!
+0b!
+0d!
+0g!
+1i!
+0O!
+0P!
+1f
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+0f"
+0J"
+0["
+0e!
+0i"
+0M"
+1k"
+1^"
+1O"
+1)"
+1z!
+1j!
+#825000
+1"
+1O!
+1P!
+0f
+#850000
+b11111111 !
+b11110111 !
+b11110011 !
+b11110001 !
+b11110000 !
+b10001 #
+0"
+1Q!
+0\!
+0^!
+0_!
+0X!
+1V!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+#875000
+1"
+1O!
+1P!
+0f
+#900000
+b10011 #
+b11110001 !
+b10010 #
+0"
+1\!
+0Q!
+1b!
+0O!
+0P!
+1f
+0W"
+0<"
+00"
+0#"
+0s!
+0R!
+1f"
+1J"
+#925000
+1"
+1O!
+1P!
+0f
+#950000
+b11110011 !
+b11110010 !
+b10011 #
+0"
+1Q!
+0\!
+1^!
+0O!
+0P!
+1f
+1W"
+1<"
+10"
+1#"
+1s!
+1R!
+#975000
+1"
+1O!
+1P!
+0f
+#1000000
